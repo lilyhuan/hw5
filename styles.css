@@ -1,0 +1,79 @@
+body {
+  font-family: "Bellota", cursive;
+  margin: 0;
+}
+
+.logo {
+  display: inline;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+}
+
+.logo h1 {
+  align-items: center;
+}
+
+.nav {
+  list-style: none;
+  text-align: center;
+  background-color: #e1a97d;
+  padding: 1%;
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  /* margin: 5%; */
+}
+
+.nav a {
+  padding: 5%;
+  /* display: inline-block;  links themselves don’t break onto new lines but still obey any padding values accordingly */
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* .banner {
+  background-image: url("assets/banner.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+} */
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e1a97d;
+  padding: 2% 5%;
+  border-radius: 50px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
