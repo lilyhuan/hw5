@@ -3,6 +3,10 @@ https://www.codecademy.com/learn/learn-css
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://www.w3schools.com/ */
 
+/* CSS is organized by page section. Within in each page section,
+it is ordered from top of HTML to bottom of HTML page. The declerations
+are organized in alphabetical order.*/
+
 body {
   font-family: "Bellota", cursive;
   margin: 0;
@@ -84,6 +88,7 @@ a {
   font-weight: bold;
 }
 
+/* Location and Hours */
 .locations {
   margin: auto;
   width: 1000px;
@@ -106,8 +111,17 @@ a {
   margin: 0;
 }
 
+/* Menu Page */
+.button {
+  background-color: #fff2e2;
+  border-radius: 50px;
+  margin: auto;
+  padding: 20px;
+  width: fit-content;
+}
+
 /* Browse Page */
-.main {
+.browse-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
