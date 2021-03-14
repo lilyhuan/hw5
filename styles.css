@@ -83,6 +83,31 @@ a {
   font-weight: bold;
 }
 
+.locations {
+  width: 1000px;
+  margin: auto;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.directions {
+  display: flex;
+  margin: 0;
+  align-items: baseline;
+}
+
+.d-button {
+  background-color: #fff2e2;
+  margin: 0 0 0 40px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.m0 {
+  margin: 0;
+}
+
+/* Browse Page */
 .main {
   display: flex;
   flex-wrap: wrap;
