@@ -44,6 +44,11 @@ a:hover {
   text-decoration: underline;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* .banner {
   background-image: url("assets/banner.png");
   height: 100%;
