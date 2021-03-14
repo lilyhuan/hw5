@@ -3,9 +3,9 @@ body {
   margin: 0;
 }
 
+/* Nav Bar and Logo */
 .logo {
   display: inline;
-  /* text-align: center; */
   justify-content: center;
   align-items: center;
 }
@@ -29,12 +29,10 @@ body {
 
 .nav li {
   display: inline;
-  /* margin: 5%; */
 }
 
 .nav a {
   padding: 0 5%;
-  /* display: inline-block;  links themselves don’t break onto new lines but still obey any padding values accordingly */
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -54,16 +52,8 @@ a {
   height: auto;
   vertical-align: bottom;
 }
-/* .banner {
-  background-image: url("assets/banner.png");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
-  text-align: center;
-} */
-
+/* Home Page */
 .banner {
   position: relative;
   text-align: center;
@@ -91,8 +81,6 @@ a {
 .locations {
   width: 1000px;
   margin: auto;
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .directions {
@@ -141,17 +129,13 @@ a {
 
 .arrow {
   object-fit: contain;
-  /* width: a */
   padding-right: 50px;
 }
 
 /* Details Page */
 .detail-container {
-  /* display: grid;  */
   max-width: 1000px;
   margin: auto;
-
-  /* grid-template-areas:  */
 }
 
 .info-container {
