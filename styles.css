@@ -1,3 +1,8 @@
+/* External Resources
+https://www.codecademy.com/learn/learn-css
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.w3schools.com/ */
+
 body {
   font-family: "Bellota", cursive;
   margin: 0;
@@ -5,9 +10,9 @@ body {
 
 /* Nav Bar and Logo */
 .logo {
+  align-items: center;
   display: inline;
   justify-content: center;
-  align-items: center;
 }
 
 .logo img {
@@ -20,11 +25,11 @@ body {
 }
 
 .nav {
-  list-style: none;
-  text-align: center;
   background-color: #e1a97d;
-  padding: 1%;
+  list-style: none;
   margin: 0;
+  padding: 1%;
+  text-align: center;
 }
 
 .nav li {
@@ -32,10 +37,10 @@ body {
 }
 
 .nav a {
-  padding: 0 5%;
-  text-decoration: none;
   color: black;
   font-weight: bold;
+  padding: 0 5%;
+  text-decoration: none;
 }
 
 a:hover {
@@ -43,14 +48,14 @@ a:hover {
 }
 
 a {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 
 .nav-bag {
-  width: 25px;
   height: auto;
   vertical-align: bottom;
+  width: 25px;
 }
 
 /* Home Page */
@@ -65,35 +70,36 @@ a {
 }
 
 .centered-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: #e1a97d;
-  padding: 2% 5%;
   border-radius: 50px;
-  font-size: 2rem;
-  text-decoration: none;
   color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  left: 50%;
+  padding: 2% 5%;
+  position: absolute;
+  text-decoration: none;
+  top: 50%;
+  transform: translate(-50%, -50%);
   font-weight: bold;
 }
 
 .locations {
-  width: 1000px;
   margin: auto;
+  width: 1000px;
 }
 
 .directions {
+  align-items: baseline;
   display: flex;
   margin: 0;
-  align-items: baseline;
 }
 
 .d-button {
   background-color: #fff2e2;
+  border-radius: 50px;
   margin: 0 0 0 40px;
   padding: 10px;
-  border-radius: 50px;
 }
 
 .m0 {
@@ -117,9 +123,9 @@ a {
 .card-container {
   background-color: #fff2e2;
   display: inline-flex;
-  width: 350px;
-  margin: 30px 0;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 30px 0;
+  width: 350px;
 }
 
 .card-container:hover {
@@ -138,14 +144,14 @@ a {
 
 /* Details Page */
 .detail-container {
-  max-width: 1000px;
   margin: auto;
+  max-width: 1000px;
 }
 
 .info-container {
   display: inline-flex;
-  width: 1000px;
   margin: 20px auto;
+  width: 1000px;
 }
 
 .info-text {
@@ -156,17 +162,17 @@ a {
 
 .glaze-container {
   display: flex;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   flex-wrap: wrap;
   justify-content: space-between;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .glaze-card {
-  width: 45%;
   background-color: #fff2e2;
-  text-align: center;
-  margin: 20px 0;
   display: flex;
+  margin: 20px 0;
+  text-align: center;
+  width: 45%;
 }
 
 .glaze-card:hover {
@@ -179,16 +185,16 @@ a {
 
 .amount-container {
   display: flex;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   flex-wrap: wrap;
   justify-content: space-between;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .amount-card {
-  width: 20%;
   background-color: #fff2e2;
-  text-align: center;
   margin: 20px 0;
+  text-align: center;
+  width: 20%;
 }
 
 .amount-card:hover {
@@ -198,22 +204,22 @@ a {
 .bag-container {
   background-color: #fff2e2;
   display: flex;
-  width: 1000px;
-  margin: auto;
-  justify-content: center;
-  margin: 20px 0;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  justify-content: center;
+  margin: auto;
+  margin: 20px 0;
+  width: 1000px;
 }
 
 .bag-container img {
-  object-fit: contain;
   margin-right: 10px;
+  object-fit: contain;
 }
 
 /* About Page */
 .about-wrapper {
-  max-width: 1000px;
   margin: 50px auto;
+  max-width: 1000px;
 }
 
 .about-container {
