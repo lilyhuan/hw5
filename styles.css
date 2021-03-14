@@ -213,3 +213,17 @@ a {
   object-fit: contain;
   margin-right: 10px;
 }
+
+/* About Page */
+.about-wrapper {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-container p {
+  margin-right: 20px;
+}
