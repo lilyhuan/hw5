@@ -49,6 +49,11 @@ a {
   color: black;
 }
 
+.nav-bag {
+  width: 25px;
+  height: auto;
+  vertical-align: bottom;
+}
 /* .banner {
   background-image: url("assets/banner.png");
   height: 100%;
