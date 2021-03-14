@@ -33,7 +33,7 @@ body {
 }
 
 .nav a {
-  padding: 5%;
+  padding: 0 5%;
   /* display: inline-block;  links themselves don’t break onto new lines but still obey any padding values accordingly */
   text-decoration: none;
   color: black;
