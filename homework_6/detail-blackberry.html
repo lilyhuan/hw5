@@ -10,6 +10,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" async></script>
+
     <title>Bun Bun Bakery - Original</title>
   </head>
   <body>
@@ -31,8 +33,13 @@
         </li>
         <li><a href="index.html#locations">Locations</a></li>
         <li>
-          <a href="browse.html">Order Now</a
-          ><img src="assets/bag.png" alt="bag icon" class="nav-bag" />
+          <a href="browse.html">Order Now</a>
+          <a href="cart.html"
+            ><img src="assets/bag.png" alt="bag icon" class="nav-bag" /><span
+              id="bag-val"
+              >0</span
+            ></a
+          >
         </li>
       </ul>
     </div>
@@ -91,7 +98,7 @@
       </div>
 
       <!-- Add to Bag -->
-      <div class="bag-container">
+      <div class="bag-container" id="bag">
         <img src="assets/bag.png" alt="bag icon" />
         <h2 class="bag">Add to bag</h2>
       </div>
