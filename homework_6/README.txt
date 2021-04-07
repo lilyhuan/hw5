@@ -1,1 +1,0 @@
-I created an extra product page for the blackberry cinnamon roll. I also developed the "About" page and "Menu" page.
